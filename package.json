@@ -1,0 +1,27 @@
+{
+  "name": "express_mongo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "homepage": "https://github.com/Asi-Asi/express_mongo#readme",
+  "bugs": {
+    "url": "https://github.com/Asi-Asi/express_mongo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asi-Asi/express_mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.15.0"
+  },
+  "devDependencies": {}
+}
