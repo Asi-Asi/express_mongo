@@ -1,5 +1,8 @@
+import 'dotenv/config'; // Load environment variables from .env file
 import express from 'express';
 import usersRoutes from './users/users.routes.js';
+
+
 const PORT = 5500;
 
 const server = express();   
